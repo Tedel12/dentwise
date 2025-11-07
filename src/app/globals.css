@@ -184,6 +184,15 @@ body {
   }
 }
 
-  .scrollbar-hidden::-webkit-scrollbar {
-    display: none;
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* add cursor pointer to buttons by default */
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
   }
+}
