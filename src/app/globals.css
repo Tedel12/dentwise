@@ -187,7 +187,7 @@ body {
 
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;
-}
+}  
 
 /* add cursor pointer to buttons by default */
 @layer base {
